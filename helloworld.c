@@ -8,6 +8,7 @@ int main()
 
     printf("Result:%d\n", i + p);
     printf("%d\n", i * p);
+    printf("%d\n", i - p);
 
    
     
