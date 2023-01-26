@@ -3,12 +3,13 @@ int main()
 {
     printf("Hello World.\n");
 
-    int i = 20;
+    int i = 60;
     int p = 30;
 
     printf("Result:%d\n", i + p);
     printf("%d\n", i * p);
     printf("%d\n", i - p);
+    printf("%d\n", i / p);
 
    
     
