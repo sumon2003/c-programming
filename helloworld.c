@@ -12,6 +12,7 @@ int main()
     printf("%d\n", i / p);
 
     printf("Hello jishan\n");
+    printf("Sylhet e prochur hindu.\n");
 
    
     
