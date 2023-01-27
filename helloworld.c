@@ -11,6 +11,8 @@ int main()
     printf("%d\n", i - p);
     printf("%d\n", i / p);
 
+    printf("Hello jishan\n");
+
    
     
     
