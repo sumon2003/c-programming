@@ -19,6 +19,7 @@ int main()
     printf("I think this is difficult.");
 
     int q = 75;
+    q = 50;
     printf("%d\n", q);
 
    
