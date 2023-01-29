@@ -22,7 +22,8 @@ int main()
     q = 50;
    int r = 50;
     printf("%d\n", q);
-    printf("Addition:%d", q + r);
+    printf("Addition:%d\n", q + r);
+    printf("Multiplication:%d\n", q * r );
 
    
     
