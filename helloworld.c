@@ -21,9 +21,11 @@ int main()
     int q = 75;
     q = 50;
    int r = 50;
+    r = 30;
     printf("%d\n", q);
     printf("Addition:%d\n", q + r);
     printf("Multiplication:%d\n", q * r );
+    printf("%d", r);
 
    
     
