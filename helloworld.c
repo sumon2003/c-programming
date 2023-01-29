@@ -20,7 +20,9 @@ int main()
 
     int q = 75;
     q = 50;
+   int r = 50;
     printf("%d\n", q);
+    printf("Addition:%d", q + r);
 
    
     
