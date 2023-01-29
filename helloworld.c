@@ -18,6 +18,9 @@ int main()
     printf("This world going to be.....");
     printf("I think this is difficult.");
 
+    int q = 75;
+    printf("%d\n", q);
+
    
     
     
