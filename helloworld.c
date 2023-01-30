@@ -33,6 +33,7 @@ int main()
     int a = 50;
     int b = 30;
     printf("%d\n", a + b);
+    printf("%d\n", a % b);
    
     
     
