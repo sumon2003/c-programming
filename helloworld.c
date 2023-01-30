@@ -29,7 +29,10 @@ int main()
 
     char myChar = 'A';
     printf("%c\n", myChar);
-
+    
+    int a = 50;
+    int b = 30;
+    printf("%d\n", a + b);
    
     
     
