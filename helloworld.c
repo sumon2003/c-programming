@@ -34,6 +34,7 @@ int main()
     int b = 30;
     printf("%d\n", a + b);
     printf("%d\n", a % b);
+    printf("%d\n", a ^ b);
    
     
     
