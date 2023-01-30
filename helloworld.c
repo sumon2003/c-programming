@@ -25,7 +25,10 @@ int main()
     printf("%d\n", q);
     printf("Addition:%d\n", q + r);
     printf("Multiplication:%d\n", q * r );
-    printf("%d", r);
+    printf("%d\n", r);
+
+    char myChar = 'A';
+    printf("%c\n", myChar);
 
    
     
