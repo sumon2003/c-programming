@@ -31,7 +31,10 @@ int main()
     printf("%c\n", myChar);
     
     int a = 50;
+    a = 100;
     int b = 30;
+    b = 200;
+
     printf("%d\n", a + b);
     printf("%d\n", a % b);
     printf("%d\n", a ^ b);
