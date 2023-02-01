@@ -45,6 +45,9 @@ int main()
     printf("%d\n", b * b);
     printf("%d\n", a - a);
 
+    float Float = 3.9;
+    printf("%f\n", Float);
+
       
 
    
