@@ -47,7 +47,7 @@ int main()
 
     float Float = 3.9567;
     printf("%.2f\n", Float);
-    printf("%.3f\n", Float)
+    printf("%.3f\n", Float);
 
       
 
