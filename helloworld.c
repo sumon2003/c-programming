@@ -6,6 +6,7 @@ void myFunction(){
 }
 int main()
 {
+    myFunction(); //call the function
     printf("Hello World.\n");
 
     int i = 60;
