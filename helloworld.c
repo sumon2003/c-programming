@@ -1,4 +1,9 @@
 #include<stdio.h>
+
+// Create a function
+void myFunction(){
+    printf("I just got executed!");
+}
 int main()
 {
     printf("Hello World.\n");
