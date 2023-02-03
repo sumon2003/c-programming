@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
-    float R, 
-    scanf("%f", &R);
-    printf("A = 3.14159*%f", R^2);
+    double R, pi;
+    pi = 3.14159;
+    
+    scanf("%lf", &R);
+    printf("A=%lf",pi * R^2);
     return 0;
 }
