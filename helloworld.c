@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int A, B;
-    scanf("%d", &A, &B);
-    printf("SOMA = %d\n", A + B);
+    int hour, minute, second;
+    printf("Enter Hour Minute Second:");
+    scanf("%d%d%d, &hour, &minute, &second");
+
+    printf("%d:%d:%d", hour, minute, second);
 
     
     return 0;
