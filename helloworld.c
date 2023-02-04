@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    int hour, minute, second;
-    printf("Enter Hour Minute Second:");
-    scanf("%d%d%d, &hour, &minute, &second");
-
-    printf("%d:%d:%d", hour, minute, second);
+    int time = 20;
+    if(time < 15){
+        printf("Good Day");
+    }else{
+        printf("Good Evening");
+    }
 
     
     return 0;
