@@ -14,7 +14,7 @@ int main(){
     }else if(mycash > 3000){
         printf("I have thousand money.\n");
     }else{
-        printf("There is no money\n");
+        printf("There is no money.\n");
     }
     
     return 0;
