@@ -15,7 +15,14 @@ int main(){
         printf("I have thousand money.\n");
     }else{
         printf("There is no money.\n");
+
     }
+
+    int day = 4;
+    switch(day){
+        case 1
+    }
+
     
     return 0;
 }
