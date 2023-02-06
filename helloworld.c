@@ -18,7 +18,10 @@ int main(){
 
     }
 
-    int day = 5;
+    int day;
+    printf("Enter your number:");
+    scanf("%d", &day);
+    
     switch(day){
         case 1:
         printf("Monday");
