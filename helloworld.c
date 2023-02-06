@@ -44,5 +44,13 @@ int main(){
     }
 
     
+    do{
+        printf("%d\n", i);
+        i++;
+    }
+    while(i < 11);
+
+
+    
     return 0;
 }
