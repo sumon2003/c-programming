@@ -29,6 +29,8 @@ int main(){
         case 4:
         printf("Thursday");
         break;
+        default:
+        printf("Looking forward to the weekend");
     }
 
     
