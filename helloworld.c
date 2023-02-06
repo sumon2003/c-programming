@@ -20,7 +20,15 @@ int main(){
 
     int day = 4;
     switch(day){
-        case 1
+        case 1:
+        printf("Monday");
+        break;
+        case 2:
+        printf("Tuesday");
+        break;
+        case 4:
+        printf("Thursday");
+        break;
     }
 
     
