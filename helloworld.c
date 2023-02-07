@@ -19,7 +19,7 @@ int main(){
     }
 
     int day;
-    printf("Enter your number:");
+    printf("Enter your number");
     scanf("%d", &day);
     
     switch(day){
