@@ -30,10 +30,10 @@ int main(){
         printf("Tuesday\n");
         break;
         case 4:
-        printf("Thursday");
+        printf("Thursday\n");
         break;
         default:
-        printf("Looking forward to the weekend\n");
+        printf("Looking forward to the weekend");
     }
 
     int i = 0;
