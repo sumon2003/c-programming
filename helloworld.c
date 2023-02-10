@@ -27,7 +27,7 @@ int main(){
         printf("Monday\n");
         break;
         case 2:
-        printf("Tuesday\n");
+        printf("Tuesday");
         break;
         case 4:
         printf("Thursday\n");
