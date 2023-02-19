@@ -24,7 +24,7 @@ int main(){
     
     switch(day){
         case 1:
-        printf("Monday\n");
+        printf("Monday");
         break;
         case 2:
         printf("Tuesday");
