@@ -33,7 +33,7 @@ int main(){
         printf("Thursday");
         break;
         default:
-        printf("Looking forward to the weekend\n");
+        printf("Looking forward to the weekend");
     }
 
     int i = 0;
