@@ -10,7 +10,7 @@ int main(){
     
     int mycash = 5000;
     if(mycash < 3000){
-        printf("I have some money.\n");
+        printf("I have some money.");
     }else if(mycash > 3000){
         printf("I have thousand money.\n");
     }else{
