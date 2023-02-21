@@ -5,7 +5,7 @@ int main(){
     if(time < 15){
         printf("Good Day");
     }else{
-        printf("Good Evening\n");
+        printf("Good Evening");
     }
     
     int mycash = 5000;
