@@ -2,11 +2,11 @@
 
 int main(){
     
-        int A, B, SOMA;
+        int A, B, PROD;
     
         scanf("%d%d", &A,&B);
-        SOMA = A + B;
-        printf("SOMA = %d\n", SOMA);
+        PROD = A * B;
+        printf("PROD = %d\n", PROD);
         
 
 
