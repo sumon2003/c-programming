@@ -2,11 +2,13 @@
 
 int main(){
     
-        int A, B, PROD;
+        int A, B, MEDIA;
     
         scanf("%d%d", &A,&B);
-        PROD = A * B;
-        printf("PROD = %d\n", PROD);
+        A = A * 3.5;
+        B = B * 7.5;
+        MEDIA = (A + B) / 11;
+        printf("MEDIA = %d\n", MEDIA);
         
 
 
