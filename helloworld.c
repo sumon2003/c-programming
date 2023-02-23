@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    
-      int a = 10;
-      int b = 40;
-      printf("%d\n", a + b);
-      printf("%d\n", a - b);
-      printf("%d\n", a*b);
-      printf("%d\n", a/b);
-        
+    printf("Hello World");
+printf("Hello World");
+    printf("Hello World");
+      printf("Hello World");
+
+
  return 0;
 }
