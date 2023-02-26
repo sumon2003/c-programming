@@ -10,6 +10,8 @@ int main(){
  printf("%d",c);
  int d;
  scanf("%d",&d);
+ int e = c + d;
+ printf("%d",e);
 
 
  return 0;
