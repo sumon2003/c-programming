@@ -2,7 +2,8 @@
 
 int main(){
  int a, b, c, sum;
- float avg
+ float avg;
+ printf("Enter three integer value:");
  
 
 
