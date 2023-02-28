@@ -5,7 +5,7 @@ int main(){
  printf("This is Sumon\n");
  printf("This is our Metro\n");
  printf("Our versity is Awesome\n");
- printf("Today is a good day?");
- printf("CSE earned the award.");
+ printf("Today is a good day?\n");
+ printf("CSE earned the award.\n");
  return 0;
 }
