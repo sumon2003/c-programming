@@ -6,5 +6,6 @@ int main(){
  printf("This is our Metro\n");
  printf("Our versity is Awesome\n");
  printf("Today is a good day?");
+ printf("CSE earned the award.");
  return 0;
 }
