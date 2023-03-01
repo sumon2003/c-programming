@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 int main(){
- printf("My name is Md Sumon Hossain khan\n");
- printf("This is Sumon\n");
- printf("This is our Metro\n");
- printf("Our versity is Awesome\n");
- printf("Today is a good day?\n");
- printf("CSE earned the award.\n");
+ double a, b, c, media;
+ scanf("%lf%lf%lf", &a, &b, &c);
+ media = (a/10*2)+(b/10*3)+(c/10*5);
+ printf("MEDIA = %.1lf\n", media);
  return 0;
 }
