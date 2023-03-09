@@ -6,7 +6,7 @@ int b;
 scanf("%d%d", &a, &b);
 printf("Sum = %d", a+b);
 printf("Minus = %d", a-b);
-printf("Multiply = %d", a*b);
+printf("Multiply = %d\n", a*b);
 printf("Divide = %d\n", a/b);
 printf("Vagsesh = %d\n", a&b);
 
