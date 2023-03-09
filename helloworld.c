@@ -8,7 +8,7 @@ printf("Sum = %d", a+b);
 printf("Minus = %d", a-b);
 printf("Multiply = %d", a*b);
 printf("Divide = %d", a/b);
-printf("Vagsesh = %d", a&b);
+printf("Vagsesh = %d\n", a&b);
 
 
 
