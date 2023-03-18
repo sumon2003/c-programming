@@ -5,6 +5,6 @@
       char name;
       scanf("%s %lf %lf",&name,&salary,&valu);                               
       TOTAL = salary+valu*.15;
-      printf("TOTAL = R$ %.3lf\n",TOTAL);
+      printf("TOTAL = R$ %.3lf",TOTAL);
       return 0; 
     }
