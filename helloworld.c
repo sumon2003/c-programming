@@ -1,10 +1,10 @@
  #include<stdio.h>
     int main()
     {
-       double salary,value,TOTAL;
+       double salary,valu,TOTAL;
       char name;
-      scanf("%s %lf %lf",&name,&salary,&value);                               
-      TOTAL = salary+value*.15;
+      scanf("%s %lf %lf",&name,&salary,&valu);                               
+      TOTAL = salary+valu*.15;
       printf("TOTAL = R$ %.3lf\n",TOTAL);
       return 0; 
     }
