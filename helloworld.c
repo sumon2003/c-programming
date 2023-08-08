@@ -1,10 +1,14 @@
- #include<stdio.h>
-    int main()
-    {
-       double salary,value,TOTAL;
-      char name;
-       scanf("%s %lf %lf",&name,&salary,&value);                              
-      TOTAL = salary+value*.15;
-      printf("TOTAL = R$ %.2lf",TOTAL);
-      return 0; 
-    }
+#include<stdio.h>
+int main(){
+int n, i, sum = 0, temp;
+scanf("%d", &n);
+for(i=1; i<=n; i++){
+  scanf("%d", &temp);
+  if(temp < 0)
+    break;
+    else
+     sum += temp;
+}
+printf("%d\n", sum);
+  return 0;
+}
