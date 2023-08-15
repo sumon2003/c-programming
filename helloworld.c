@@ -1,14 +1,13 @@
-#include<stdio.h>
-int main(){
-int n, i, sum = 0, temp;
-scanf("%d", &n);
-for(i=1; i<=n; i++){
-  scanf("%d", &temp);
-  if(temp < 0)
-    break;
-    else
-     sum += temp;
+#include <stdio.h>
+int main(void) {
+	int x,y,sum;
+	scanf("%d%d", &x,&y);
+	sum = x+y;
+	if(sum>6){
+	    printf("YES\n");
+	}else{
+	    printf("NO\n");
+	}
+	return 0;
 }
-printf("%d\n", sum);
-  return 0;
-}
+
