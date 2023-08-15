@@ -1,13 +1,9 @@
 #include <stdio.h>
-int main(void) {
-	int x,y,sum;
-	scanf("%d%d", &x,&y);
-	sum = x+y;
-	if(sum>6){
-	    printf("YES\n");
-	}else{
-	    printf("NO\n");
-	}
+int main() {
+	int n;
+	printf("Enter any ascii value: ");
+	scanf("%d",&n);
+	printf("The character is: %c\n", n);
 	return 0;
 }
 
