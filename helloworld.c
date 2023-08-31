@@ -1,12 +1,16 @@
 #include<stdio.h> //
 int main(){
-	double a, b, c, s, area;
-	printf("Enter 3 numbers: ");
-	scanf("%lf%lf%lf",&a,&b,&c);
-	s = (a+b+c)/2;
-	area = sqrt(s*(s-a)*(s-b)*(s-c));
-	printf("The area of tringle is: %lf\n", area);
-
+	int i,n,sum=0;
+	printf("Enter N: ");
+	scanf("%d",&n);
+	int array1[n];
+	for(i=0; i<n; i++){
+		scanf("%d",&array1[i]);
+	}
+	for(i=0; i<n; i++){
+		sum=sum+array1[i];
+	}
+	printf("%d", sum);
 
 return 0;
 }
