@@ -1,19 +1,24 @@
-#include<stdio.h> //Fibonacci Series
+#include<stdio.h> //Linear Search
 int main(){
-	int n,i;
-	printf("How many Fibonacci numbers: ");
-	scanf("%d",&n);
-	int array[n];
-	array[0]=0;
-	array[1]=1;
-	for(i=2; i<n; i++)
+	int num[]={10,20,30,40,50};
+	int value,position = -1,i;
+	printf("Enter the value you want to search: ");
+	scanf("%d", &value);
+	for(i=0; i<5; i++)
 	{
-		array[i]=array[i-1]+array[i-2];
+		if(value==num[i])
+		{
+			position = i+1;
+			break;
+		}
 	}
-	printf("\n");
-	for(i=0; i<n; i++)
+	if(position==-1)
 	{
-		printf("%d ",array[i]);
+		printf("Item is not found.\n");
+	}
+	else
+	{
+		printf("The value is found at position %d.\n",position);
 	}
 
 
