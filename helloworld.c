@@ -1,8 +1,9 @@
 #include<stdio.h> //Fibonacci Series
 int main(){
-	int array[50],n,i;
+	int n,i;
 	printf("How many Fibonacci numbers: ");
 	scanf("%d",&n);
+	int array[n];
 	array[0]=0;
 	array[1]=1;
 	for(i=2; i<n; i++)
