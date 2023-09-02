@@ -2,20 +2,17 @@
 #include <math.h>
 
 int main() {
-    double a, b, c, root, X1, X2;
-    
-    scanf("%lf%lf%lf", &a, &b, &c);
-    
-    root = sqrt((b * b) - (4 * a * c));
-    
-    if (a == 0 || root < 0) {
-        printf("Impossivel calcular\n");
-    } else {
-        X1 = (-b + root) / (2 * a);
-        X2 = (-b - root) / (2 * a);
-        
-        printf("R1 = %.5lf\n", X1);
-        printf("R2 = %.5lf\n", X2);
-    }
+   int i, n, value=0;
+   scanf("%d",&n);
+   for(i=0; i<=n; i++)
+   {
+       value = value + 1; 
+   }
+   printf("[0,25]");
+   for(i=25; i<=n; i++)
+   {
+	  printf("(%d,%d]",value, value+25);
+   }
+   
 return 0;
 }
