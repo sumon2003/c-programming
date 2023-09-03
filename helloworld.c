@@ -1,17 +1,13 @@
 #include <stdio.h>
 int main() {
-float n;
-scanf("%f",&n);
-if (n>=0 && n<=25)
-   printf("Intervalo [0,25]\n");
-else if(n>25 && n<=50)
-   printf("Intervalo (25,50]\n");
-else if(n>50 && n<=75)
-   printf("Intervalo (50,75]\n");
-else if(n>75 && n<=100)
-   printf("Intervalo (75,100]\n");         
-else
-   printf("Fora de intervalo\n");
- 
+int code_of_product1,code_of_product2, units_product1, units_product2;
+float price_product1, price_product2, amount_paid1, amount_paid2, total_paid;
+scanf("%d%d%f",&code_of_product1,& units_product1,&price_product1);
+scanf("%d%d%f",&code_of_product2,& units_product2,&price_product2);
+amount_paid1 = units_product1 * price_product1;
+amount_paid2 = units_product2 * price_product2;
+total_paid = amount_paid1 + amount_paid2;
+printf("VALOR A PAGAR: R$ %.2f\n", total_paid);
+
 return 0;
 }
