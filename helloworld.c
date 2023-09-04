@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-  int w;
-  scanf("%d",&w);
-  if(w%2==0 && w!=2)
-    printf("YES\n");
-  else
-    printf("NO\n");  
+  double a,b, receive,total; 
+  char c[100];
+  scanf("%s %lf%lf", c,&a,&b);
+  receive = b * (15.0/100);
+  total = a + receive;
+  printf("TOTAL = R$ %.2lf\n",total); 
 return 0;
 }
