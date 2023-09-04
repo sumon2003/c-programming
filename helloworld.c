@@ -1,18 +1,19 @@
 #include<stdio.h>
 int main(){
-int A,B,X,Y,pntsMessi,pntsRonaldo;
-scanf("%d%d%d%d",&A,&B,&X,&Y);
-pntsMessi=A*2+B*1;
-pntsRonaldo=X*2+Y*1;
-if(pntsMessi>pntsRonaldo){
-  printf("Messi\n");
+int T,X,Y,i;
+scanf("%d", &T);
+for(i=0;i<T;i++){
+  scanf("%d%d",&X,&Y);
+
+if(X>Y){
+  printf("LOSS\n");
 }
-else if(pntsRonaldo>pntsMessi){
-  printf("Ronaldo\n");
+else if(X<Y){
+  printf("PROFIT\n");
 }
 else{
-  printf("Equal\n");
+  printf("NEUTRAL\n");
 }
-
+}
 return 0;
 }
