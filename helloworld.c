@@ -1,19 +1,16 @@
 #include<stdio.h>
 int main(){
-int T,X,Y,i;
+int T,a,b,c,i;
 scanf("%d", &T);
 for(i=0;i<T;i++){
-  scanf("%d%d",&X,&Y);
-
-if(X>Y){
-  printf("LOSS\n");
+  scanf("%d%d%d",&a,&b,&c);
+  if(a+b==c || b+c==a || c+a==b){
+    printf("YES\n");
+  }
+  else{
+    printf("NO\n");
+  }
 }
-else if(X<Y){
-  printf("PROFIT\n");
-}
-else{
-  printf("NEUTRAL\n");
-}
-}
+  
 return 0;
 }
