@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-char s1[] = "Md Sumon Hossain \
- Khan";
-printf("%s",s1);
+char name[100];
+printf("Enter your full name: ");
+gets(name);
+printf("Fullname: %s",name);
 return 0;
 }
