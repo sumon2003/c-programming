@@ -1,12 +1,11 @@
 #include<stdio.h>
 int main(){
-char name[100]="SUMON";
-int i=0;
-while(name[i]!='\0'){
-    printf("%c\n",name[i]);
-    i++;
-}
+char source[]="Md Sumon Hossain Khan";
+char target[100];
 
+strcpy(target,source);
+printf("Source String: %s\n",source);
+printf("Target String: %s\n",target);
 
 return 0;
 }
