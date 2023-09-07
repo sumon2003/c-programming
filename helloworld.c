@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main(){
-char source[]="Md Sumon Hossain Khan";
-char target[100];
+char first_name[] = "Md Sumon ";
+char last_name[]="Hossain Khan";
 
-strcpy(target,source);
-printf("Source String: %s\n",source);
-printf("Target String: %s\n",target);
+strcat(first_name,last_name);
+printf("Full name: %s\n", first_name);
 
 return 0;
 }
