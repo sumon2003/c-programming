@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-char first_name[] = "Md Sumon ";
-char last_name[]="Hossain Khan";
-
-strcat(first_name,last_name);
-printf("Full name: %s\n", first_name);
+char name[]= "C programme";
+char compare[] = "C programme";
+int cmpr;
+cmpr=strcmp(name,compare);
+printf("%d",cmpr);
 
 return 0;
 }
