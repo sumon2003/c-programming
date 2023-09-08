@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-char name[]= "C programme";
-char compare[] = "C programme";
-int cmpr;
-cmpr=strcmp(name,compare);
-if(cmpr==0)
-  printf("String two are equal.");
-else
-  printf("String two are not equal.");
-
+int i,arr[10];
+for(i=0;i<10;i++){
+  printf("Elements %d = ",i);
+  scanf("%d",&arr[i]);
+}
+printf("Element in array are = ");
+for(i=0;i<10;i++){
+printf("%d ",arr[i]);
+}
 return 0;
 }
