@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main(){
-float n;
-scanf("%f",&n);
-if (n>=0 && n<=25)
-   printf("Interval [0,25]\n");
-else if(n>25 && n<=50)
-   printf("Interval (25,50]\n");
-else if(n>50 && n<=75)
-   printf("Interval (50,75]\n");
-else if(n>75 && n<=100)
-   printf("Interval (75,100]\n");         
-else
-   printf("Out of Intervals\n");
+int lift_capacity = 500,X,Y,T,friends_capacity,i;
+scanf("%d",&T);
+for(i=0;i<T;i++){
+    scanf("%d%d",&X,&Y);
+    friends_capacity = X*Y;
+    if(X<=8 && friends_capacity<=lift_capacity){
+        printf("YES\n");
+    }
+    else{
+        printf("NO\n");
+    }
+}
 return 0;
 }
