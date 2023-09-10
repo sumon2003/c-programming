@@ -1,18 +1,23 @@
 #include<stdio.h>
 int main(){
-int n,i;
-scanf("%d",&n);
-for(i=1;i<=n;i++){
-    int even =2*i;
-    if(n%2==0 && even<=n){
-        printf("%d\n",even);
-    }
-    else if(n%2!=0 && even<n){
-        printf("%d\n",even);
-    }
-    else if(even<2 || n<2){
-        printf("-1\n");
-    }
+int a,b,c, sum,minus,multiply;
+char s,q;
+scanf("%d %c %d %c %d",&a,&s,&b,&q,&c);
+sum = a + b;
+minus = a - b;
+multiply = a * b;
+if(sum==c || minus==c || multiply==c){
+    printf("Yes\n");
+}   
+else if(sum!=c && s=='+'){
+    printf("%d",sum);
 }
+else if(minus!=c && s=='-'){
+    printf("%d",minus);
+}
+else if(multiply!=c && s=='*'){
+    printf("%d",multiply);
+}
+
 return 0;
 }
