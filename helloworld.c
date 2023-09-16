@@ -1,21 +1,16 @@
-//Given an array of 15 integers, find the minimum of the array solution
+//Write a program to find a character is vowel or not, if vowel print ‘Yes’, otherwise print ‘No’
+
 #include<stdio.h>
 int main()
 {
-
-    int arr[15],i,min;
-    for(i=0; i<15; i++){
-        scanf("%d",&arr[i]);
-    }
-    min = arr[0];
-    for(i=0; i<15; i++){
-        if(min > arr[i]){
-            min = arr[i];
-        }
-    }
-    printf("%d\n",min);
-
-
+   char x;
+   scanf("%c",&x);
+   if(x=='A' || x=='E' || x=='I' || x=='O' || x=='U' || x=='a' || x=='e' || x=='i' || x=='o' || x=='u'){
+    printf("Yes");
+   }
+   else{
+    printf("No");
+   }
    
     return 0;
 }    
