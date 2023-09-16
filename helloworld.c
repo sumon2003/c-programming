@@ -1,19 +1,19 @@
-//Given an array of 15 integers, find the maximum of the array solution
+//Given an array of 15 integers, find the minimum of the array solution
 #include<stdio.h>
 int main()
 {
 
-    int arr[15],i,max;
+    int arr[15],i,min;
     for(i=0; i<15; i++){
         scanf("%d",&arr[i]);
     }
-    max = arr[0];
+    min = arr[0];
     for(i=0; i<15; i++){
-        if(max < arr[i]){
-            max = arr[i];
+        if(min > arr[i]){
+            min = arr[i];
         }
     }
-    printf("%d\n",max);
+    printf("%d\n",min);
 
 
    
