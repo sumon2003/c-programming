@@ -1,16 +1,23 @@
-//Write a program to find a number is even or odd, if even print ‘EVEN’ if odd print ‘ODD’
-
 #include<stdio.h>
 int main()
 {
-   int num;
-   scanf("%d",&num);
-   if(num%2==0){
-    printf("EVEN\n");
-   }
-   else{
-    printf("ODD\n");
-   }
+    
+    int a,b,c,c1,c2,t,i;
+    scanf("%d",&t);
+    
+    for(i=0; i<t; i++){
+        scanf("%d%d%d",&a,&b,&c);
+        c1 = a+b;
+        c2 = a-b;
+        if(c1==c){
+            printf("+\n");
+        }
+        else if(c2==c){
+            printf("-\n");
+        }
+    }
    
+
     return 0;
-}    
+
+}
