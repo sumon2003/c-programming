@@ -1,22 +1,25 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,i;
-    for(i=0; i<3000; i++){
-        scanf("%d%d",&a,&b);
-        if(a>b){
-            printf("%d %d\n",b,a);
+    int a,b,c,n,i,count=0;
+    scanf("%d",&n);
+    for(i=0; i<n; i++){
+        scanf("%d%d%d",&a,&b,&c);
+        if(a==1 && b==1 && c==1){
+            count++;
         }
-        else if(a<b){
-            printf("%d %d\n",a,b);
+        if(a==1 && b==1 && c==0){
+            count++;
         }
-        else if(a==0 && b==0){
-            break;
+        if(a==1 && b==0 && c==1){
+            count++;
         }
-        else if(a==b){
-            printf("%d %d\n",a,b);
+        if(a==0 && b==1 && c==1){
+            count++;
         }
+        
     }
+    printf("%d\n",count);
 
    return 0;
 
