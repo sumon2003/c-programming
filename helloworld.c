@@ -1,12 +1,10 @@
 #include<stdio.h>
 int main()
 {
-   long long n,m,ldn,ldm,sum_ld;//last digit = ld = num%10
-   scanf("%lld %lld",&n,&m);
-   ldn = n%10;
-   ldm = m%10;
-   sum_ld = ldn + ldm;
-   printf("%lld\n",sum_ld);
+   long long n,sum;
+   scanf("%lld",&n);
+   sum = (n*(n+1))/2; //Summation from 1 to N
+   printf("%lld",sum);
 
    return 0;
 }
