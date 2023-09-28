@@ -1,15 +1,29 @@
 #include<stdio.h>
 int main()
 {
-  int num,num2;
-  scanf("%d",&num);
-  num2 = num/1000;
-  if(num2%2==0){
-    printf("EVEN\n");
+  float x,y;
+  scanf("%f%f",&x,&y);
+  if(x>0 && y>0){
+    printf("Q1\n");
   }
-  else{
-    printf("ODD\n");
+  else if(x<0 && y>0){
+    printf("Q2\n");
   }
-  
+  else if(x<0 && y<0){
+    printf("Q3\n");
+  }
+  else if(x>0 && y<0){
+    printf("Q4\n");
+  }
+  else if(x==0 && y==0){
+    printf("Origem\n");
+  }
+  else if((x>0||x<0) && y==0){
+    printf("Eixo X\n");
+  }
+  else if(x==0 && (y>0||y<0)){
+    printf("Eixo Y\n");
+  }
+
   return 0;
 }
