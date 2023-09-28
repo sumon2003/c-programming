@@ -1,10 +1,12 @@
 #include<stdio.h>
 int main()
 {
-   float r,pi=3.141592653,area;
-   scanf("%f",&r);
-   area = pi*r*r;
-   printf("%.9f",area);
+   long long n,m,ldn,ldm,sum_ld;//last digit = ld = num%10
+   scanf("%lld %lld",&n,&m);
+   ldn = n%10;
+   ldm = m%10;
+   sum_ld = ldn + ldm;
+   printf("%lld\n",sum_ld);
 
    return 0;
 }
