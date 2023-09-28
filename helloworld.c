@@ -1,14 +1,17 @@
 #include<stdio.h>
 int main()
 {
-  int a,b;
-  scanf("%d %d",&a,&b);
-  if(a%b==0 || b%a==0){
-   printf("Multiples\n");
-  }
-  else{
-   printf("No Multiles\n");
-  }
-
+  int a,b,c,max,min;
+  scanf("%d %d %d",&a,&b,&c);
+  max = min = a;
+  if(b>max)
+   max = b;
+  if(b<min)
+   min = b;
+  if(c>max)
+   max = c;
+  if(c<min)
+   min = c;  
+  printf("%d %d\n",min,max);
    return 0;
 }
