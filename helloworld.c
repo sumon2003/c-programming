@@ -1,15 +1,20 @@
 #include<stdio.h>
-#include<string.h>
 int main()
 {
-  char f1[100],s1[100],f2[100],s2[100];
-  scanf("%s %s %s %s",f1,s1,f2,s2);
-  
-  if(strcmp(s1,s2)==0){
-    printf("ARE Brothers\n");
+  char x;
+  scanf("%c",&x);
+  if(x>='0' && x<='9'){
+    printf("IS DIGIT\n");
   }
-  else{
-    printf("NOT\n");
-  }
-   return 0;
+  else if(x>='A' && x<='Z'){
+    printf("ALPHA\n");
+    printf("IS CAPITAL\n");
+  } 
+  else if(x>='a' && x<='z'){
+    printf("ALPHA\n");
+    printf("IS SMALL\n");
+  } 
+
+
+  return 0;
 }
