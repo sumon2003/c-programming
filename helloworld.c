@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-   int d;
-   long long l;
-   char c;
-   float f;
-   double dl;
-   scanf("%d %lld %c %f %lf",&d,&l,&c,&f,&dl);
-   printf("%d\n%lld\n%c\n%f\n%lf\n",d,l,c,f,dl);
+   long long x,y,sum,multiply,subtract;
+   scanf("%lld %lld",&x,&y);
+   sum = x+y;
+   multiply = x*y;
+   subtract = x-y;
+   printf("%lld + %lld = %lld\n",x,y,sum);
+   printf("%lld * %lld = %lld\n",x,y,multiply);
+   printf("%lld - %lld = %lld\n",x,y,subtract);
 
    return 0;
 
