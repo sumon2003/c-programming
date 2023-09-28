@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-   long long a,b,c,d,x;
-   scanf("%lld %lld %lld %lld",&a,&b,&c,&d);
-   x = (a*b)-(c*d);
-   printf("Difference = %lld",x);
+   float r,pi=3.141592653,area;
+   scanf("%f",&r);
+   area = pi*r*r;
+   printf("%.9f",area);
 
    return 0;
 }
