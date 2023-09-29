@@ -1,28 +1,20 @@
 #include<stdio.h>
 int main()
 {
-  float x,y;
-  scanf("%f%f",&x,&y);
-  if(x>0 && y>0){
-    printf("Q1\n");
+  int a,b;
+  char s;
+  scanf("%d %c %d",&a,&s,&b);
+  if(a<b && s=='<'){
+    printf("Right");
   }
-  else if(x<0 && y>0){
-    printf("Q2\n");
+  else if(a>b && s=='>'){
+    printf("Right");
   }
-  else if(x<0 && y<0){
-    printf("Q3\n");
+  else if(a==b && s=='='){
+    printf("Right");
   }
-  else if(x>0 && y<0){
-    printf("Q4\n");
-  }
-  else if(x==0 && y==0){
-    printf("Origem\n");
-  }
-  else if((x>0||x<0) && y==0){
-    printf("Eixo X\n");
-  }
-  else if(x==0 && (y>0||y<0)){
-    printf("Eixo Y\n");
+  else{
+    printf("Wrong");
   }
 
   return 0;
