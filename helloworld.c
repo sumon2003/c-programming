@@ -2,16 +2,11 @@
 #include<math.h>
 int main()
 {
-  long long a,b,c,d;
-  
-  scanf("%lld %lld %lld %lld", &a, &b, &c, &d);
-  double pow1 = pow(a, b);
-  double pow2 = pow(c, d);
-  if(pow1 > pow2){
-    printf("YES\n");
-  }
-  else{
-    printf("NO\n");
-  }
+  float x,p,cost_sell_prize;
+  float main_prize;
+  scanf("%f %f",&x,&p);
+  cost_sell_prize = 100-x;
+  main_prize = (100/cost_sell_prize)*p;
+  printf("%.2f",main_prize);
   return 0;
 }
