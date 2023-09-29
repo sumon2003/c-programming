@@ -1,12 +1,19 @@
 #include<stdio.h>
-#include<math.h>
 int main()
 {
-  float x,p,cost_sell_prize;
-  float main_prize;
-  scanf("%f %f",&x,&p);
-  cost_sell_prize = 100-x;
-  main_prize = (100/cost_sell_prize)*p;
-  printf("%.2f",main_prize);
+  long long a,b,k;
+  scanf("%lld %lld %lld",&a,&b,&k);
+  if(a%k==0 && b%k==0){
+    printf("Both\n");
+  }
+  else if(a%k==0 && b%k!=0){
+    printf("Memo\n");
+  }
+  else if(a%k!=0 && b%k==0){
+    printf("Momo\n");
+  }
+  else if(a%k!=0 && b%k!=0){
+    printf("No One\n");
+  }
   return 0;
 }
