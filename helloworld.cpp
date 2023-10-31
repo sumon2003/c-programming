@@ -2,9 +2,7 @@
 using namespace std;
 
 int main() {
-    int x = 5;
-    int y = 5;
-    int sum = x + y;
-    cout << sum;
+    int x = 5, y = 5, z = 5;
+    cout << x+y+z;
     return 0;
 }
