@@ -2,10 +2,14 @@
 using namespace std;
 
 int main() {
-    // This is a Single line comment.
-    /*This is Multiline comment.
-      This is looking good.*/
-   cout << "Hello World!" << endl<<endl;
-   cout << "I am learning C++.";
+    int value = 15;
+    double value1 = 15.15;
+    char letter = 'S';
+    string name = "SUMON";
+    cout << value << endl;
+    cout << value1 << endl;
+    cout << letter << endl;
+    cout << name << endl;
+    cout << "I am " << value << " years old.";
     return 0;
 }
