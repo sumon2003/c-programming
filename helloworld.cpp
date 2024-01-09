@@ -1,27 +1,19 @@
+/*//  بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ  //*/
+/*//   Md Sumon Hossain Khan   //*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main(){
 
-int t,n;
-cin>>t;
-int max=0,min=0;
-for(int i=0; i<t; i++){
-    cin>>n;
-    if(n%2==0){
-        max = n;
-        min = n/2;
-    }else{
-        max = n;
-        min = (n/2)+1;
-    }
-    cout<<min<<" "<<max<<endl;
-}
+    int x,y;
+    cin >> x >> y;
+
+    int cost = (6*x) + y;
+    
+    cout << cost;
 
 
-
-max = 0;
-min = 0;
 
 return 0;  
 }
