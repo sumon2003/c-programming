@@ -6,18 +6,20 @@ using namespace std;
 
 int main(){
 
+    int t;
+    cin >> t;
+    
     int n;
-    scanf("%d", &n);
     
-    int sum = 0;
-    while(n > 0)
+    for(int i=0; i<t; i++)
     {
-        sum = sum + (n % 10);
-        n = n/10;
+        cin >> n;
+        if(n<=10)
+        cout << "0" << " " << n << endl;
+        else{
+            cout << n-10 <<" " << "10" << endl;
+        }
     }
-
-    printf("%d",sum);
     
-
 return 0;  
 }
