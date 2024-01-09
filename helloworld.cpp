@@ -7,23 +7,17 @@ using namespace std;
 int main(){
 
     int n;
-    cin >> n;
+    scanf("%d", &n);
     
-    int x, y, z;
-
-    int max_choklate = 0;
-    for(int i=0; i<n; i++)
+    int sum = 0;
+    while(n > 0)
     {
-        cin >> x >> y >> z;
-        max_choklate = ((x * 5) + (y * 10)) / z;
-        cout << max_choklate << endl;
+        sum = sum + (n % 10);
+        n = n/10;
     }
-    
-   
-   
 
+    printf("%d",sum);
     
-
 
 return 0;  
 }
