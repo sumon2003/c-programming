@@ -9,16 +9,16 @@ int main(){
     int t;
     cin >> t;
     
-    int n;
-    
     for(int i=0; i<t; i++)
-    {
-        cin >> n;
-        if(n<=10)
-        cout << "0" << " " << n << endl;
-        else{
-            cout << n-10 <<" " << "10" << endl;
-        }
+    {   
+        int a, b, c, c1 = 0, c2 = 0;
+        cin >> a >> b >> c;
+
+        c1 = a + b;
+        c2 = a - b;
+
+        if(c1 == c) cout << "+" << endl;
+        else if(c2 == c) cout << "-" << endl;
     }
     
 return 0;  
