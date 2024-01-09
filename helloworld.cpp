@@ -6,13 +6,23 @@ using namespace std;
 
 int main(){
 
-    int x,y;
-    cin >> x >> y;
-
-    int cost = (6*x) + y;
+    int n;
+    cin >> n;
     
-    cout << cost;
+    int x, y, z;
 
+    int max_choklate = 0;
+    for(int i=0; i<n; i++)
+    {
+        cin >> x >> y >> z;
+        max_choklate = ((x * 5) + (y * 10)) / z;
+        cout << max_choklate << endl;
+    }
+    
+   
+   
+
+    
 
 
 return 0;  
