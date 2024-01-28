@@ -17,12 +17,7 @@ int main()
     cout << len1 << " " << len2 << endl;
     cout << str1 + str2 << endl;
 
-    str3[0] = str1[0];
-    str1[0] = str2[0];
-    str2[0] = str3[0];
-
-    cout << str1 << " " << str2 << endl;
-
+   
 
     return 0;
 }
